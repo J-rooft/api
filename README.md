@@ -18,7 +18,7 @@ Simple key-value file which will be used by docker to set container environment 
 
 * `TELEGRAM_BOT_TOKEN` mandatory telegram bot token.
 
-* `TELEGRAM_DEFAULT_CHAT_ID` default telegram chat ID, which will receive messages from the bot. This parameter is optinal.
+* `TELEGRAM_DEFAULT_CHAT_ID` default telegram chat ID, which will receive messages from the bot. This parameter is optional.
 
 * `API_V1_CREDS` username/password pairs in JSON format of users who are allowed to access API: `{"username1":"password1", "username2":"password2"}`. This parameter is optional.
 * `MONGO_INITDB_ROOT_USERNAME` optional mongo username. Will be set only on first start.
